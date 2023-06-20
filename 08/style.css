@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .formulario {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .formulario input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .formulario input.error {
+    border: 1px solid red;
+  }
+  
+  .formulario .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .formulario .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .formulario .submit-button:hover {
+    background-color: #45a049;
+  }

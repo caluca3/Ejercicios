@@ -1,0 +1,23 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid darkkhaki;
+  }
+  
+  .elemento {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .contenedor:nth-child(1) {
+    background-color: coral;
+  }
+  
+  .contenedor:nth-child(2) {
+    background-color: cornflowerblue;
+  }
+  
+  .contenedor:nth-child(3) {
+    background-color: darkseagreen;
+  }
+  

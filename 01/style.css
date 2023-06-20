@@ -1,0 +1,23 @@
+#div-1{
+    background-color: brown;
+    width: 500px;
+    height: 300px;
+    border: solid black 1px;
+}
+#div-2{
+    background-color: rgb(142, 165, 42);
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    border: solid black 1px;
+}
+#div-3{
+  background-color: white;
+  border: solid black 1px;
+  margin: 10px;
+  padding: 20px;
+  height: 130px;
+  width: 340px;
+
+}
